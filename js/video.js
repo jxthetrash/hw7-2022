@@ -9,7 +9,6 @@ window.addEventListener("load", () => {
 
 document.querySelector("#play").addEventListener("click", function() {
 	video.play();
-	video.volume = 1
 	volumeDisplay.innerHTML = `${video.volume*100}%`
 	console.log("Play Video")
 });
